@@ -1,0 +1,44 @@
+Cliente;Joao Antunes;Masculino;2000-05-01;Rua do Adado;Viana;Lanheses;4990-444;Joaoa46@gmail.com;914923592;1200000;0
+Cliente;Tomas Antunes;Masculino;2001-11-25;Atarao Santo;Lisboa;Belem;4250-525;tomassa@gmail.com;93869195;180000;0
+Cliente;Joana Matraz;Feminino;1998-08-12;Rua Toral;Braga;Braga;4520-550;joMatraz@gmail.com;934863933;60000;0
+Cliente;Afonso Goter;Masculino;1990-01-20;Rua da Mata;Aveiro;Aveiro;4555-222;GotAfonso@sapo.pt;999888666;0;0
+
+Funcionario;Jose Benifacio;1960-05-01;Patrao;Masculino;5000;919955995;1990-04-01;0;0
+Funcionario;Tomé Adante;1990-03-02;Tecnico de Venda;Masculino;2500;915000444;2020-06-01;1;0
+Funcionario;Andrade Tuco;1988-06-01;Tecnico de Venda;Masculino;2600;953868175;2019-02-28;1;2
+Funcionario;Marta Luisa;1985-11-20;Gestor Financeiro;Feminino;3000;968395929;2017-09-15;0;0
+Funcionario;Ana Catarina;1992-01-20;Recepcionista;Feminino;1200;89394995;2020-11-04;0;0
+Funcionario;Afonso Lopes;1990-05-20;Tecnico de Venda;Masculino;2400;919944339;2021-04-20;0;0
+
+Telefone;1;+351 111 111 111
+Telefone;2;+351 222 222 221
+Telefone;3;+351 666 666 666
+Telefone;4;+351 000 111 222
+
+Carro;Venda;Mercedes;GLS;0;2010;80000;NOVO;DISPONIVEL
+Carro;Venda;Audi;A5;100000;2015;50000;USADO;DISPONIVEL
+Carro;Aluguer;Ferrari;Spider;32500;2012;1000;USADO;DISPONIVEL
+Carro;Aluguer;Mercedes;Classe G;90000;2012;800;USADO;DISPONIVEL
+Carro;Venda;Lamborghini;Huracan;0;2018;1200000;NOVO;NAODISPONIVEL
+Carro;Venda;Nissan;GTR;54000;2011;54000;USADO;DISPONIVEL
+Carro;Venda;Lamborghini;Urus;49000;2020;270000;USADO;DISPONIVEL
+Carro;Aluguer;MC Laren;MP4;40000;2012;140000;USADO;DISPONIVEL
+Carro;Venda;Wiesmann;GT MF4;65000;2008;180000;USADO;NAODISPONIVEL
+Carro;Venda;MC Laren;720s;0;2017;300000;NOVO;DISPONIVEL
+
+Compra;1;2;A pronto;2023-01-10;914923592;2022-01-10;1200000
+Compra;2;3;A pronto;2022-10-23;959595959;2023-10-23;180000
+
+VendaInclui;5;1;1200000;0
+VendaInclui;9;2;180000;0
+
+Aluguer;3;3;A pronto;2023-04-10;934863933;2023-04-10;3000;BOMESTADO;1010101010100;3
+Aluguer;3;3;A pronto;2023-04-10;934863933;2023-04-10;3000;BOMESTADO;1100101001010;3
+
+AluguerInclui;1;3;3000;0
+AluguerInclui;2;8;3000;0
+
+EfetuaPedido;2022-01-10;1;null;2;1
+EfetuaPedido;2023-04-10;null;1;3;3
+EfetuaPedido;2023-04-10;null;2;3;3
+EfetuaPedido;2023-10-23;2;null;2;3
